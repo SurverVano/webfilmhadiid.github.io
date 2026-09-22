@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami - DCFilm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigasi -->
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="home.html" class="brand-logo">
+                <div class="logo-icon">🎬</div>
+                <span>DC<span>Film</span></span>
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="home.html" class="nav-link">Home</a></li>
+                    <li><a href="daftar_film.html" class="nav-link">Daftar Film</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="profil.html" class="nav-link">Profil</a></li>
+                    <li><a href="kontak.html" class="nav-link active">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">Hubungi Kami</h1>
+                <p class="page-subtitle">Sampaikan pertanyaan, masukan, atau rekomendasi film favorit yang ingin Anda lihat di sini.</p>
+            </div>
+
+            <div class="contact-layout">
+                <!-- Kolom Kiri: Informasi Kontak -->
+                <aside class="contact-info-card">
+                    <h2 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 20px;">Saluran Komunikasi</h2>
+                    <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 0.95rem;">
+                        Kami selalu terbuka untuk berdiskusi, menerima saran perbaikan website, maupun rekomendasi judul film terbaru.
+                    </p>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">👤</div>
+                        <div class="contact-text">
+                            <h4>Pengelola Situs</h4>
+                            <p>Hadiid Ansyor</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-text">
+                            <h4>Email Resmi</h4>
+                            <p><a href="mailto:hadiidansyor297@gmail.com">hadiidansyor297@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-text">
+                            <h4>WhatsApp / Seluler</h4>
+                            <p>+62 812-2087-8807</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-text">
+                            <h4>Wilayah Operasional</h4>
+                            <p>Indonesia</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Kolom Kanan: Formulir Pesan -->
+                <section class="contact-form-card">
+                    <h2 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 8px;">Kirimkan Pesan</h2>
+                    <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 0.95rem;">
+                        Isi data berikut untuk mengirimkan umpan balik langsung ke tim pengelola:
+                    </p>
+
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="nama" class="form-label">Nama Lengkap</label>
+                            <input type="text" id="nama" name="nama" class="form-control" placeholder="Contoh: Amba Rusdi" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Alamat Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Ambarusdi69@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subjek" class="form-label">Subjek Pesan</label>
+                            <input type="text" id="subjek" name="subjek" class="form-control" placeholder="Judul ringkas mengenai pesan Anda" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="kategori" class="form-label">Kategori Pesan</label>
+                            <select id="kategori" name="kategori" class="form-control">
+                                <option value="saran_film">🍿 Rekomendasi Film Baru</option>
+                                <option value="pertanyaan">❓ Pertanyaan Umum</option>
+                                <option value="laporan">⚠️ Laporan Kendala Tampilan / Video</option>
+                                <option value="lainnya">💬 Lainnya</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pesan" class="form-label">Isi Pesan / Saran</label>
+                            <textarea id="pesan" name="pesan" class="form-control" placeholder="Tuliskan ulasan, kritik, atau saran Anda secara rinci di sini..." required></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">✉️ Kirim Pesan</button>
+                            <button type="reset" class="btn btn-secondary">🔄 Reset</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Hak Cipta Dilindungi. Informasi ini dikelola oleh <strong>Hadiid Ansyor</strong></p>
+        </div>
+    </footer>
+
+</body>
+</html>
